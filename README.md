@@ -1,9 +1,28 @@
 # 全局指定按钮节流控制
 
-```html
-适用于Vue + ElmentUI，对全文中<b style="color: #409EFF;">指定按钮</b
->统一进行节流处理，<b style="color: #409EFF;">规定时间内</b
->不会触发第二次。<br /><i style="color:#909399;"
-	>例：Demo中只对全文中出现的“确定”和"保存"按钮做了节流处理，且2秒内不会重复触发</i
->
+## 适用于 Vue + ElmentUI，对全文中指定按钮统一进行节流处理，规定时间内不会触发第二次
+
+## Demo[]
+
+## 使用
+
+### (一)
+
+```bash
+npm install vue-elbutton-throttle -S
+
+or
+
+yarn add vue-elbutton-throttle
+```
+
+### （二）
+
+```js
+// main.js
+import btnThrottle from 'vue-elbutton-throttle'
+
+document.addEventListener('click', e => {
+	btnThrottle(e, ['确定', '保存', '提交'], 2 * 1000)
+})
 ```
