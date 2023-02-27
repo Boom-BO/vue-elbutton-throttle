@@ -2,7 +2,7 @@
 
 ## 适用于 Vue + ElmentUI，对全文中指定按钮统一进行节流处理，规定时间内不会触发第二次
 
-## Demo[]
+## [查看 Demo](https://boom-bo.github.io/vue-elbutton-throttle/)
 
 ## 使用
 
