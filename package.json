@@ -1,8 +1,6 @@
 {
 	"name": "vue-elbutton-throttle",
-	"private": true,
 	"version": "1.0.0",
-	"type": "module",
 	"description": "基于Vue+ElementUI，全局监听点击事件对“确定”或“保存”按钮进行节流处理！",
 	"author": "Wubo",
 	"main": "lib/index.js",
